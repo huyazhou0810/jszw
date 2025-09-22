@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>江苏智为咨询有限公司</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-800">江苏智为咨询有限公司</h1>
+      <nav>
+        <ul class="flex space-x-6 text-gray-700 font-medium">
+          <li><a href="#about" class="hover:text-blue-600">公司介绍</a></li>
+          <li><a href="#qualification" class="hover:text-blue-600">资质</a></li>
+          <li><a href="#talent" class="hover:text-blue-600">人才</a></li>
+          <li><a href="#honor" class="hover:text-blue-600">荣誉</a></li>
+          <li><a href="#culture" class="hover:text-blue-600">企业文化</a></li>
+          <li><a href="#responsibility" class="hover:text-blue-600">社会责任</a></li>
+          <li><a href="#vision" class="hover:text-blue-600">发展愿景</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative">
+    <div class="w-full h-[500px] bg-cover bg-center" style="background-image: url('https://picsum.photos/id/1018/1600/500');">
+      <div class="bg-black bg-opacity-40 w-full h-full flex items-center justify-center">
+        <h2 class="text-white text-4xl md:text-5xl font-bold">国企背景 · 专业咨询 · 信誉保证</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-blue-800 mb-6">公司介绍</h2>
+    <p class="text-lg leading-relaxed">
+      江苏智为咨询有限公司，依托国企背景，专注于工程咨询、招投标代理、造价审计、项目管理等综合服务。
+      公司秉持“专业、诚信、共赢”的理念，服务政府、企业与社会，致力于成为区域一流的综合性咨询机构。
+    </p>
+  </section>
+
+  <!-- Qualification -->
+  <section id="qualification" class="bg-gray-100 py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-blue-800 mb-6">资质</h2>
+      <ul class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <li class="p-6 bg-white shadow-md rounded-xl">工程咨询甲级资质</li>
+        <li class="p-6 bg-white shadow-md rounded-xl">招投标代理机构资质</li>
+        <li class="p-6 bg-white shadow-md rounded-xl">造价咨询企业甲级资质</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Talent -->
+  <section id="talent" class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-blue-800 mb-6">人才</h2>
+    <p class="text-lg leading-relaxed">
+      公司拥有高素质的专业团队，包括注册咨询工程师、注册造价师、高级工程师等各类专业人才，
+      以专业的知识和经验为客户提供精准高效的咨询服务。
+    </p>
+  </section>
+
+  <!-- Honor -->
+  <section id="honor" class="bg-gray-100 py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-blue-800 mb-6">荣誉</h2>
+      <ul class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <li class="p-6 bg-white shadow-md rounded-xl">省级优秀咨询企业</li>
+        <li class="p-6 bg-white shadow-md rounded-xl">市重点工程服务单位</li>
+        <li class="p-6 bg-white shadow-md rounded-xl">AAA级信用企业</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Culture -->
+  <section id="culture" class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-blue-800 mb-6">企业文化</h2>
+    <p class="text-lg leading-relaxed">
+      我们坚守“智谋为先，专业为本”的文化核心，倡导学习型组织，鼓励创新与合作，
+      致力于为客户和社会创造可持续价值。
+    </p>
+  </section>
+
+  <!-- Responsibility -->
+  <section id="responsibility" class="bg-gray-100 py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-blue-800 mb-6">社会责任</h2>
+      <p class="text-lg leading-relaxed">
+        江苏智为咨询有限公司积极履行社会责任，投身公益事业，助力绿色发展，
+        推动城乡建设的高质量与可持续发展。
+      </p>
+    </div>
+  </section>
+
+  <!-- Vision -->
+  <section id="vision" class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-blue-800 mb-6">发展愿景</h2>
+    <p class="text-lg leading-relaxed">
+      未来，公司将继续深化咨询服务领域，拓展工程管理、产业规划、投融资咨询等业务，
+      努力成长为全国知名的综合型咨询企业。
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-8 mt-12">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <p>© 2025 江苏智为咨询有限公司 版权所有</p>
+      <p class="text-sm mt-2">地址：江苏省徐州市新沂市 | 电话：400-888-8888</p>
+      <p class="text-sm mt-1">备案号：苏ICP备00000000号</p>
+    </div>
+  </footer>
+
+</body>
+</html>
